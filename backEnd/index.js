@@ -2,7 +2,7 @@ const app = require('express')()
 const http = require('http').createServer(app)
 const port=process.env.PORT||8080
 app.get('/', (req, res) => {
-    res.send("Node Serfdsfver is running. Yay!!")
+    res.send("my server")
 })
 // http.listen(8080)
 
