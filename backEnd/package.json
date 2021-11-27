@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "sample chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": " nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyapsr13/chat-app.git"
+  },
+  "author": "satyaprakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyapsr13/chat-app/issues"
+  },
+  "homepage": "https://github.com/satyapsr13/chat-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}
